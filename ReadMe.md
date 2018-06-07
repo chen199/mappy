@@ -2,10 +2,6 @@
 
 Now you can add and remove users from a Map, easily! 
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 Node & Npm
@@ -43,7 +39,7 @@ npm run start "https://next.json-generator.com/api/json/get/NJ0TbNWgB"
 
 ## Built With
 
-* [Node](https://nodejs.org/en/) - We all love node
+* [Node](https://nodejs.org/en/) - We all love node.
 * [React](https://reactjs.org/) - Superior to Vue & Angular, IMHO.
 * [Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial) - Classic.
 
@@ -56,5 +52,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Should improve functions delegations between components
 * Should add validations
 * Should improve styling (reuseability, scss loaders etc)
+* Should improve everything, ugh.
 
 
