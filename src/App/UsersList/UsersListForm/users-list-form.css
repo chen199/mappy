@@ -1,0 +1,14 @@
+#users-list-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+#users-list-h3 {
+  text-align: center;
+}
+
+#add-user-submit {
+  cursor: pointer;
+}

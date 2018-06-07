@@ -1,0 +1,14 @@
+#users-list {
+  overflow: scroll;
+  padding-right: 20px;
+  min-width: 255px;
+}
+
+#users-list-select {
+  display: inline-block;
+  margin: 10px 10px 0 42px;
+  width: 90px;
+  height: 27px;
+  font-size: 15px;
+  cursor: pointer;
+}

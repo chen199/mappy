@@ -1,0 +1,11 @@
+.users-list-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 4px;
+  text-transform: capitalize;
+}
+
+.users-list-item-rm {
+  cursor: pointer; 
+}

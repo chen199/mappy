@@ -1,0 +1,9 @@
+.user-marker {
+  border: 1px solid red;
+  border-radius: 100%;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
