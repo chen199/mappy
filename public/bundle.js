@@ -397,47 +397,25 @@ eval("\n\nvar bind = __webpack_require__(/*! ./helpers/bind */ \"./node_modules/
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/App/App.css":
-/*!***************************************************!*\
-  !*** ./node_modules/css-loader!./src/App/App.css ***!
-  \***************************************************/
+/***/ "./node_modules/css-loader/index.js!./src/App/Map/UserMarker/user-marker.css":
+/*!**************************************************************************!*\
+  !*** ./node_modules/css-loader!./src/App/Map/UserMarker/user-marker.css ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"#app-container {\\n  position: absolute;\\n  top: 0;\\n  bottom: 0;\\n  right: 0;\\n  left: 0;\\n  display: flex;\\n  flex-direction: row;\\n  overflow: hidden;\\n  /* font-family: Ariel, sans-serif; */\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/App.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".user-marker {\\n  border: 1px solid red;\\n  border-radius: 100%;\\n  width: 50px;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  justify-content: center;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/Map/UserMarker/user-marker.css?./node_modules/css-loader");
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/App/Map/Map.css":
+/***/ "./node_modules/css-loader/index.js!./src/App/Map/map.css":
 /*!*******************************************************!*\
-  !*** ./node_modules/css-loader!./src/App/Map/Map.css ***!
+  !*** ./node_modules/css-loader!./src/App/Map/map.css ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"#map {\\n  display: flex;\\n  flex-grow: 1;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/Map/Map.css?./node_modules/css-loader");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js!./src/App/Map/UserMarker/UserMarker.css":
-/*!*************************************************************************!*\
-  !*** ./node_modules/css-loader!./src/App/Map/UserMarker/UserMarker.css ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".user-marker {\\n  border: 1px solid red;\\n  border-radius: 100%;\\n  width: 50px;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  justify-content: center;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/Map/UserMarker/UserMarker.css?./node_modules/css-loader");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js!./src/App/UsersList/UsersList.css":
-/*!*******************************************************************!*\
-  !*** ./node_modules/css-loader!./src/App/UsersList/UsersList.css ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"#users-list {\\n  overflow: scroll;\\n  padding-right: 20px;\\n  min-width: 255px;\\n}\\n\\n#users-list-select {\\n  display: inline-block;\\n  margin: 10px 10px 0 42px;\\n  width: 90px;\\n  height: 27px;\\n  font-size: 15px;\\n  cursor: pointer;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/UsersList/UsersList.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"#map {\\n  display: flex;\\n  flex-grow: 1;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/Map/map.css?./node_modules/css-loader");
 
 /***/ }),
 
@@ -452,14 +430,36 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../../node_module
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./src/App/UsersList/UsersListItem/UsersListItem.css":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/css-loader!./src/App/UsersList/UsersListItem/UsersListItem.css ***!
-  \*************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./src/App/UsersList/UsersListItem/users-list-item.css":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/css-loader!./src/App/UsersList/UsersListItem/users-list-item.css ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".users-list-item {\\n  display: flex;\\n  width: 100%;\\n  justify-content: space-between;\\n  margin-top: 4px;\\n  text-transform: capitalize;\\n}\\n\\n.users-list-item-rm {\\n  cursor: pointer; \\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/UsersList/UsersListItem/UsersListItem.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".users-list-item {\\n  display: flex;\\n  width: 100%;\\n  justify-content: space-between;\\n  margin-top: 4px;\\n  text-transform: capitalize;\\n}\\n\\n.users-list-item-rm {\\n  cursor: pointer; \\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/UsersList/UsersListItem/users-list-item.css?./node_modules/css-loader");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./src/App/UsersList/users-list.css":
+/*!********************************************************************!*\
+  !*** ./node_modules/css-loader!./src/App/UsersList/users-list.css ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"#users-list {\\n  overflow: scroll;\\n  padding-right: 20px;\\n  min-width: 255px;\\n}\\n\\n#users-list-select {\\n  display: inline-block;\\n  margin: 10px 10px 0 42px;\\n  width: 90px;\\n  height: 27px;\\n  font-size: 15px;\\n  cursor: pointer;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/UsersList/users-list.css?./node_modules/css-loader");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./src/App/app.css":
+/*!***************************************************!*\
+  !*** ./node_modules/css-loader!./src/App/app.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"#app-container {\\n  position: absolute;\\n  top: 0;\\n  bottom: 0;\\n  right: 0;\\n  left: 0;\\n  display: flex;\\n  flex-direction: row;\\n  overflow: hidden;\\n  /* font-family: Ariel, sans-serif; */\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/app.css?./node_modules/css-loader");
 
 /***/ }),
 
@@ -1092,17 +1092,6 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 
 /***/ }),
 
-/***/ "./src/App/App.css":
-/*!*************************!*\
-  !*** ./src/App/App.css ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!./App.css */ \"./node_modules/css-loader/index.js!./src/App/App.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/App.css?");
-
-/***/ }),
-
 /***/ "./src/App/App.js":
 /*!************************!*\
   !*** ./src/App/App.js ***!
@@ -1111,18 +1100,7 @@ eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!./A
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _httpService = __webpack_require__(/*! ../services/httpService */ \"./src/services/httpService.js\");\n\nvar _httpService2 = _interopRequireDefault(_httpService);\n\nvar _UsersList = __webpack_require__(/*! ./UsersList/UsersList */ \"./src/App/UsersList/UsersList.js\");\n\nvar _UsersList2 = _interopRequireDefault(_UsersList);\n\nvar _Map = __webpack_require__(/*! ./Map/Map */ \"./src/App/Map/Map.js\");\n\nvar _Map2 = _interopRequireDefault(_Map);\n\n__webpack_require__(/*! ./App.css */ \"./src/App/App.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n  _inherits(App, _Component);\n\n  function App(props) {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    (_this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props)), _this), _this.state = {\n      users: [],\n      map: {},\n      newUser: {},\n\n      //the value the retrive value function per key\n      sortOptions: {\n        Age: function Age(user) {\n          return user.age;\n        },\n        Name: function Name(user) {\n          return user.name.first;\n        },\n        Surname: function Surname(user) {\n          return user.name.last;\n        }\n      }\n    };\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      var _state = this.state,\n          users = _state.users,\n          sortOptions = _state.sortOptions;\n\n      return _react2.default.createElement(\n        'div',\n        { id: 'app-container' },\n        _react2.default.createElement(_UsersList2.default, {\n          users: users,\n          sortOptions: sortOptions,\n          onSort: this.sortUsers.bind(this),\n          onRemove: this.removeUserFromList.bind(this),\n          onUserFormChange: this.onUserFormChange.bind(this),\n          onAdd: this.addUserToList.bind(this)\n        }),\n        _react2.default.createElement(_Map2.default, { users: users })\n      );\n    }\n  }, {\n    key: '_sortByKey',\n    value: function _sortByKey(array, sortFunc) {\n      return array.sort(function (a, b) {\n        var x = sortFunc(a);var y = sortFunc(b);\n        return x < y ? -1 : x > y ? 1 : 0;\n      });\n    }\n  }, {\n    key: 'sortUsers',\n    value: function sortUsers(key) {\n      var _this2 = this;\n\n      this.setState(function (state) {\n        return _extends({}, state, { users: _this2._sortByKey(_this2.state.users, _this2.state.sortOptions[key]) });\n      });\n    }\n  }, {\n    key: 'removeUserFromList',\n    value: function removeUserFromList(_id) {\n      var _this3 = this;\n\n      this.setState(function (state) {\n        return _extends({}, state, { users: _this3.state.users.filter(function (user) {\n            return user._id != _id;\n          }) });\n      });\n    }\n  }, {\n    key: 'onUserFormChange',\n    value: function onUserFormChange(updatedValue) {\n      this.setState({\n        newUser: _extends({}, this.state.newUser, updatedValue)\n      });\n    }\n  }, {\n    key: 'addUserToList',\n    value: function addUserToList(newUser) {\n      var _this4 = this;\n\n      var newUserModify = {\n        _id: newUser._id,\n        name: {\n          first: newUser.fname,\n          last: newUser.lname\n        },\n        age: newUser.age,\n        latitude: newUser.latitude,\n        longitude: newUser.longitude\n      };\n      this.setState(function (state) {\n        return _extends({}, state, { users: [].concat(_toConsumableArray(_this4.state.users), [newUserModify]) });\n      });\n    }\n  }, {\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      var _this5 = this;\n\n      _httpService2.default.get('/users').then(function (res) {\n        _this5.setState(function (state) {\n          return _extends({}, state, { users: res.data });\n        });\n        // https://medium.freecodecamp.org/functional-setstate-is-the-future-of-react-374f30401b6b -lovit.\n      }, function (error) {\n        console.log(\"error\");\n      });\n    }\n  }]);\n\n  return App;\n}(_react.Component);\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/App/App.js?");
-
-/***/ }),
-
-/***/ "./src/App/Map/Map.css":
-/*!*****************************!*\
-  !*** ./src/App/Map/Map.css ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!./Map.css */ \"./node_modules/css-loader/index.js!./src/App/Map/Map.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/Map/Map.css?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _httpService = __webpack_require__(/*! ../services/httpService */ \"./src/services/httpService.js\");\n\nvar _httpService2 = _interopRequireDefault(_httpService);\n\nvar _UsersList = __webpack_require__(/*! ./UsersList/UsersList */ \"./src/App/UsersList/UsersList.js\");\n\nvar _UsersList2 = _interopRequireDefault(_UsersList);\n\nvar _Map = __webpack_require__(/*! ./Map/Map */ \"./src/App/Map/Map.js\");\n\nvar _Map2 = _interopRequireDefault(_Map);\n\n__webpack_require__(/*! ./app.css */ \"./src/App/app.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n  _inherits(App, _Component);\n\n  function App(props) {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    (_this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props)), _this), _this.state = {\n      users: [],\n      map: {},\n      newUser: {},\n\n      //the value the retrive value function per key\n      sortOptions: {\n        Age: function Age(user) {\n          return user.age;\n        },\n        Name: function Name(user) {\n          return user.name.first;\n        },\n        Surname: function Surname(user) {\n          return user.name.last;\n        }\n      }\n    };\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      var _state = this.state,\n          users = _state.users,\n          sortOptions = _state.sortOptions;\n\n      return _react2.default.createElement(\n        'div',\n        { id: 'app-container' },\n        _react2.default.createElement(_UsersList2.default, {\n          users: users,\n          sortOptions: sortOptions,\n          onSort: this.sortUsers.bind(this),\n          onRemove: this.removeUserFromList.bind(this),\n          onUserFormChange: this.onUserFormChange.bind(this),\n          onAdd: this.addUserToList.bind(this)\n        }),\n        _react2.default.createElement(_Map2.default, { users: users })\n      );\n    }\n  }, {\n    key: '_sortByKey',\n    value: function _sortByKey(array, sortFunc) {\n      return array.sort(function (a, b) {\n        var x = sortFunc(a);var y = sortFunc(b);\n        return x < y ? -1 : x > y ? 1 : 0;\n      });\n    }\n  }, {\n    key: 'sortUsers',\n    value: function sortUsers(key) {\n      var _this2 = this;\n\n      this.setState(function (state) {\n        return _extends({}, state, { users: _this2._sortByKey(_this2.state.users, _this2.state.sortOptions[key]) });\n      });\n    }\n  }, {\n    key: 'removeUserFromList',\n    value: function removeUserFromList(_id) {\n      var _this3 = this;\n\n      this.setState(function (state) {\n        return _extends({}, state, { users: _this3.state.users.filter(function (user) {\n            return user._id != _id;\n          }) });\n      });\n    }\n  }, {\n    key: 'onUserFormChange',\n    value: function onUserFormChange(updatedValue) {\n      this.setState({\n        newUser: _extends({}, this.state.newUser, updatedValue)\n      });\n    }\n  }, {\n    key: 'addUserToList',\n    value: function addUserToList(newUser) {\n      var _this4 = this;\n\n      var newUserModify = {\n        _id: newUser._id,\n        name: {\n          first: newUser.fname,\n          last: newUser.lname\n        },\n        age: newUser.age,\n        latitude: newUser.latitude,\n        longitude: newUser.longitude\n      };\n      this.setState(function (state) {\n        return _extends({}, state, { users: [].concat(_toConsumableArray(_this4.state.users), [newUserModify]) });\n      });\n    }\n  }, {\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      var _this5 = this;\n\n      _httpService2.default.get('/users').then(function (res) {\n        _this5.setState(function (state) {\n          return _extends({}, state, { users: res.data });\n        });\n        // https://medium.freecodecamp.org/functional-setstate-is-the-future-of-react-374f30401b6b -lovit.\n      }, function (error) {\n        console.log(\"error\");\n      });\n    }\n  }]);\n\n  return App;\n}(_react.Component);\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/App/App.js?");
 
 /***/ }),
 
@@ -1134,18 +1112,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _googleMapReact = __webpack_require__(/*! google-map-react */ \"./node_modules/google-map-react/lib/index.js\");\n\nvar _googleMapReact2 = _interopRequireDefault(_googleMapReact);\n\nvar _UserMarker = __webpack_require__(/*! ./UserMarker/UserMarker */ \"./src/App/Map/UserMarker/UserMarker.js\");\n\nvar _UserMarker2 = _interopRequireDefault(_UserMarker);\n\n__webpack_require__(/*! ./Map.css */ \"./src/App/Map/Map.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//credits- https://hackernoon.com/implement-google-maps-in-reactjs-5bc218074689\n\nvar Map = function Map(_ref) {\n  var users = _ref.users;\n\n  return _react2.default.createElement(\n    'div',\n    { className: 'google-map', id: 'map' },\n    _react2.default.createElement(\n      _googleMapReact2.default,\n      {\n        defaultCenter: { lat: 40.7446790, lng: -73.9485420 },\n        defaultZoom: 3 },\n      users.map(function (user) {\n        return _react2.default.createElement(_UserMarker2.default, { key: user._id,\n          lat: user.latitude,\n          lng: user.longitude,\n          age: user.age,\n          fname: user.name.first,\n          lname: user.name.last\n        });\n      })\n    )\n  );\n};\n\nexports.default = Map;\n\n//# sourceURL=webpack:///./src/App/Map/Map.js?");
-
-/***/ }),
-
-/***/ "./src/App/Map/UserMarker/UserMarker.css":
-/*!***********************************************!*\
-  !*** ./src/App/Map/UserMarker/UserMarker.css ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader!./UserMarker.css */ \"./node_modules/css-loader/index.js!./src/App/Map/UserMarker/UserMarker.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/Map/UserMarker/UserMarker.css?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _googleMapReact = __webpack_require__(/*! google-map-react */ \"./node_modules/google-map-react/lib/index.js\");\n\nvar _googleMapReact2 = _interopRequireDefault(_googleMapReact);\n\nvar _UserMarker = __webpack_require__(/*! ./UserMarker/UserMarker */ \"./src/App/Map/UserMarker/UserMarker.js\");\n\nvar _UserMarker2 = _interopRequireDefault(_UserMarker);\n\n__webpack_require__(/*! ./map.css */ \"./src/App/Map/map.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//credits- https://hackernoon.com/implement-google-maps-in-reactjs-5bc218074689\n\nvar Map = function Map(_ref) {\n  var users = _ref.users;\n\n  return _react2.default.createElement(\n    'div',\n    { className: 'google-map', id: 'map' },\n    _react2.default.createElement(\n      _googleMapReact2.default,\n      {\n        defaultCenter: { lat: 40.7446790, lng: -73.9485420 },\n        defaultZoom: 3 },\n      users.map(function (user) {\n        return _react2.default.createElement(_UserMarker2.default, { key: user._id,\n          lat: user.latitude,\n          lng: user.longitude,\n          age: user.age,\n          fname: user.name.first,\n          lname: user.name.last\n        });\n      })\n    )\n  );\n};\n\nexports.default = Map;\n\n//# sourceURL=webpack:///./src/App/Map/Map.js?");
 
 /***/ }),
 
@@ -1157,18 +1124,29 @@ eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-load
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./UserMarker.css */ \"./src/App/Map/UserMarker/UserMarker.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar UserMarker = function UserMarker(_ref) {\n  var fname = _ref.fname,\n      lname = _ref.lname,\n      age = _ref.age;\n\n  return _react2.default.createElement(\n    'div',\n    { className: 'user-marker' },\n    _react2.default.createElement(\n      'span',\n      null,\n      fname\n    ),\n    _react2.default.createElement(\n      'span',\n      null,\n      lname\n    ),\n    _react2.default.createElement(\n      'span',\n      null,\n      age\n    )\n  );\n};\n\nexports.default = UserMarker;\n\n//# sourceURL=webpack:///./src/App/Map/UserMarker/UserMarker.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./user-marker.css */ \"./src/App/Map/UserMarker/user-marker.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar UserMarker = function UserMarker(_ref) {\n  var fname = _ref.fname,\n      lname = _ref.lname,\n      age = _ref.age;\n\n  return _react2.default.createElement(\n    'div',\n    { className: 'user-marker' },\n    _react2.default.createElement(\n      'span',\n      null,\n      fname\n    ),\n    _react2.default.createElement(\n      'span',\n      null,\n      lname\n    ),\n    _react2.default.createElement(\n      'span',\n      null,\n      age\n    )\n  );\n};\n\nexports.default = UserMarker;\n\n//# sourceURL=webpack:///./src/App/Map/UserMarker/UserMarker.js?");
 
 /***/ }),
 
-/***/ "./src/App/UsersList/UsersList.css":
-/*!*****************************************!*\
-  !*** ./src/App/UsersList/UsersList.css ***!
-  \*****************************************/
+/***/ "./src/App/Map/UserMarker/user-marker.css":
+/*!************************************************!*\
+  !*** ./src/App/Map/UserMarker/user-marker.css ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!./UsersList.css */ \"./node_modules/css-loader/index.js!./src/App/UsersList/UsersList.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/UsersList/UsersList.css?");
+eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader!./user-marker.css */ \"./node_modules/css-loader/index.js!./src/App/Map/UserMarker/user-marker.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/Map/UserMarker/user-marker.css?");
+
+/***/ }),
+
+/***/ "./src/App/Map/map.css":
+/*!*****************************!*\
+  !*** ./src/App/Map/map.css ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!./map.css */ \"./node_modules/css-loader/index.js!./src/App/Map/map.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/Map/map.css?");
 
 /***/ }),
 
@@ -1180,7 +1158,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _UsersListItem = __webpack_require__(/*! ./UsersListItem/UsersListItem */ \"./src/App/UsersList/UsersListItem/UsersListItem.js\");\n\nvar _UsersListItem2 = _interopRequireDefault(_UsersListItem);\n\nvar _UsersListForm = __webpack_require__(/*! ./UsersListForm/UsersListForm */ \"./src/App/UsersList/UsersListForm/UsersListForm.js\");\n\nvar _UsersListForm2 = _interopRequireDefault(_UsersListForm);\n\n__webpack_require__(/*! ./UsersList.css */ \"./src/App/UsersList/UsersList.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar UsersList = function UsersList(_ref) {\n  var users = _ref.users,\n      sortOptions = _ref.sortOptions,\n      onSort = _ref.onSort,\n      onRemove = _ref.onRemove,\n      onUserFormChange = _ref.onUserFormChange,\n      onAdd = _ref.onAdd;\n\n\n  var onChange = function onChange(e) {\n    onSort(e.target.value);\n  };\n\n  return _react2.default.createElement(\n    'div',\n    { id: 'users-list' },\n    _react2.default.createElement(_UsersListForm2.default, { onAdd: onAdd, onChange: onUserFormChange }),\n    _react2.default.createElement(\n      'select',\n      { id: 'users-list-select', onChange: onChange },\n      Object.keys(sortOptions).map(function (option) {\n        return _react2.default.createElement(\n          'option',\n          { key: option },\n          option\n        );\n      })\n    ),\n    _react2.default.createElement(\n      'ul',\n      null,\n      users.map(function (user) {\n        return _react2.default.createElement(_UsersListItem2.default, {\n          key: user._id,\n          fname: user.name.first,\n          lname: user.name.last,\n          age: user.age,\n          _id: user._id,\n          onRemove: onRemove });\n      })\n    )\n  );\n};\n\nexports.default = UsersList;\n\n//# sourceURL=webpack:///./src/App/UsersList/UsersList.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _UsersListItem = __webpack_require__(/*! ./UsersListItem/UsersListItem */ \"./src/App/UsersList/UsersListItem/UsersListItem.js\");\n\nvar _UsersListItem2 = _interopRequireDefault(_UsersListItem);\n\nvar _UsersListForm = __webpack_require__(/*! ./UsersListForm/UsersListForm */ \"./src/App/UsersList/UsersListForm/UsersListForm.js\");\n\nvar _UsersListForm2 = _interopRequireDefault(_UsersListForm);\n\n__webpack_require__(/*! ./users-list.css */ \"./src/App/UsersList/users-list.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar UsersList = function UsersList(_ref) {\n  var users = _ref.users,\n      sortOptions = _ref.sortOptions,\n      onSort = _ref.onSort,\n      onRemove = _ref.onRemove,\n      onUserFormChange = _ref.onUserFormChange,\n      onAdd = _ref.onAdd;\n\n\n  var onChange = function onChange(e) {\n    onSort(e.target.value);\n  };\n\n  return _react2.default.createElement(\n    'div',\n    { id: 'users-list' },\n    _react2.default.createElement(_UsersListForm2.default, { onAdd: onAdd, onChange: onUserFormChange }),\n    _react2.default.createElement(\n      'select',\n      { id: 'users-list-select', onChange: onChange },\n      Object.keys(sortOptions).map(function (option) {\n        return _react2.default.createElement(\n          'option',\n          { key: option },\n          option\n        );\n      })\n    ),\n    _react2.default.createElement(\n      'ul',\n      null,\n      users.map(function (user) {\n        return _react2.default.createElement(_UsersListItem2.default, {\n          key: user._id,\n          fname: user.name.first,\n          lname: user.name.last,\n          age: user.age,\n          _id: user._id,\n          onRemove: onRemove });\n      })\n    )\n  );\n};\n\nexports.default = UsersList;\n\n//# sourceURL=webpack:///./src/App/UsersList/UsersList.js?");
 
 /***/ }),
 
@@ -1207,17 +1185,6 @@ eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-load
 
 /***/ }),
 
-/***/ "./src/App/UsersList/UsersListItem/UsersListItem.css":
-/*!***********************************************************!*\
-  !*** ./src/App/UsersList/UsersListItem/UsersListItem.css ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader!./UsersListItem.css */ \"./node_modules/css-loader/index.js!./src/App/UsersList/UsersListItem/UsersListItem.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/UsersList/UsersListItem/UsersListItem.css?");
-
-/***/ }),
-
 /***/ "./src/App/UsersList/UsersListItem/UsersListItem.js":
 /*!**********************************************************!*\
   !*** ./src/App/UsersList/UsersListItem/UsersListItem.js ***!
@@ -1226,7 +1193,40 @@ eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-load
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./UsersListItem.css */ \"./src/App/UsersList/UsersListItem/UsersListItem.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n// I really dont like this component as it look right now. \n// For now, its Container type in order to add 'onClickRemove' the the prototype instead of duplicate it in memory\nvar UsersListItem = function (_Component) {\n  _inherits(UsersListItem, _Component);\n\n  function UsersListItem(props) {\n    _classCallCheck(this, UsersListItem);\n\n    var _this = _possibleConstructorReturn(this, (UsersListItem.__proto__ || Object.getPrototypeOf(UsersListItem)).call(this, props));\n\n    _this.state = {\n      _id: props._id\n    };\n\n    _this.onClickRemove = _this.onClickRemove.bind(_this);\n    _this.onClickRemoveParent = props.onRemove.bind(_this);\n    return _this;\n  }\n\n  _createClass(UsersListItem, [{\n    key: 'onClickRemove',\n    value: function onClickRemove(e) {\n      this.onClickRemoveParent(this.state._id);\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _props = this.props,\n          fname = _props.fname,\n          lname = _props.lname,\n          age = _props.age,\n          _id = _props._id;\n\n      return _react2.default.createElement(\n        'li',\n        { className: 'users-list-item' },\n        _react2.default.createElement(\n          'span',\n          null,\n          fname\n        ),\n        _react2.default.createElement(\n          'span',\n          null,\n          lname,\n          ','\n        ),\n        _react2.default.createElement(\n          'span',\n          null,\n          age\n        ),\n        _react2.default.createElement('input', { className: 'users-list-item-rm', type: 'button', value: 'remove', onClick: this.onClickRemove })\n      );\n    }\n  }]);\n\n  return UsersListItem;\n}(_react.Component);\n\nexports.default = UsersListItem;\n\n//# sourceURL=webpack:///./src/App/UsersList/UsersListItem/UsersListItem.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./users-list-item.css */ \"./src/App/UsersList/UsersListItem/users-list-item.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n// I really dont like this component as it look right now. \n// For now, its Container type in order to add 'onClickRemove' the the prototype instead of duplicate it in memory\nvar UsersListItem = function (_Component) {\n  _inherits(UsersListItem, _Component);\n\n  function UsersListItem(props) {\n    _classCallCheck(this, UsersListItem);\n\n    var _this = _possibleConstructorReturn(this, (UsersListItem.__proto__ || Object.getPrototypeOf(UsersListItem)).call(this, props));\n\n    _this.state = {\n      _id: props._id\n    };\n\n    _this.onClickRemove = _this.onClickRemove.bind(_this);\n    _this.onClickRemoveParent = props.onRemove.bind(_this);\n    return _this;\n  }\n\n  _createClass(UsersListItem, [{\n    key: 'onClickRemove',\n    value: function onClickRemove(e) {\n      this.onClickRemoveParent(this.state._id);\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _props = this.props,\n          fname = _props.fname,\n          lname = _props.lname,\n          age = _props.age,\n          _id = _props._id;\n\n      return _react2.default.createElement(\n        'li',\n        { className: 'users-list-item' },\n        _react2.default.createElement(\n          'span',\n          null,\n          fname\n        ),\n        _react2.default.createElement(\n          'span',\n          null,\n          lname,\n          ','\n        ),\n        _react2.default.createElement(\n          'span',\n          null,\n          age\n        ),\n        _react2.default.createElement('input', { className: 'users-list-item-rm', type: 'button', value: 'remove', onClick: this.onClickRemove })\n      );\n    }\n  }]);\n\n  return UsersListItem;\n}(_react.Component);\n\nexports.default = UsersListItem;\n\n//# sourceURL=webpack:///./src/App/UsersList/UsersListItem/UsersListItem.js?");
+
+/***/ }),
+
+/***/ "./src/App/UsersList/UsersListItem/users-list-item.css":
+/*!*************************************************************!*\
+  !*** ./src/App/UsersList/UsersListItem/users-list-item.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader!./users-list-item.css */ \"./node_modules/css-loader/index.js!./src/App/UsersList/UsersListItem/users-list-item.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/UsersList/UsersListItem/users-list-item.css?");
+
+/***/ }),
+
+/***/ "./src/App/UsersList/users-list.css":
+/*!******************************************!*\
+  !*** ./src/App/UsersList/users-list.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!./users-list.css */ \"./node_modules/css-loader/index.js!./src/App/UsersList/users-list.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/UsersList/users-list.css?");
+
+/***/ }),
+
+/***/ "./src/App/app.css":
+/*!*************************!*\
+  !*** ./src/App/app.css ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!./app.css */ \"./node_modules/css-loader/index.js!./src/App/app.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/app.css?");
 
 /***/ }),
 

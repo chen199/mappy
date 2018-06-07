@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import httpService from '../services/httpService'
 import UsersLists from './UsersList/UsersList'
 import Map from './Map/Map'
-import './App.css'
+import './app.css'
 
 class App extends Component {
 

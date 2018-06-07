@@ -1,5 +1,5 @@
 import React from 'react'
-import './UserMarker.css'
+import './user-marker.css'
 
 const UserMarker = ({fname, lname, age}) => {
   return (

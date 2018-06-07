@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './UsersListItem.css'
+import './users-list-item.css'
 
 // I really dont like this component as it look right now. 
 // For now, its Container type in order to add 'onClickRemove' the the prototype instead of duplicate it in memory

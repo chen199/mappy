@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import GoogleMapReact from 'google-map-react'
 import UserMarker from './UserMarker/UserMarker'
-import './Map.css'
+import './map.css'
 
 //credits- https://hackernoon.com/implement-google-maps-in-reactjs-5bc218074689
 

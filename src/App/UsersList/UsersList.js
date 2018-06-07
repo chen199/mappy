@@ -1,7 +1,7 @@
 import React from 'react'
 import UsersListItem from './UsersListItem/UsersListItem'
 import UsersListForm from './UsersListForm/UsersListForm'
-import './UsersList.css'
+import './users-list.css'
 
 const UsersList = ({users, sortOptions, onSort, onRemove, onUserFormChange, onAdd}) => {
 
